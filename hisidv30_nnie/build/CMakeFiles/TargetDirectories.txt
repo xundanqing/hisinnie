@@ -1,0 +1,3 @@
+/media/yushe/code/nnie-lite-seaway/build/CMakeFiles/rebuild_cache.dir
+/media/yushe/code/nnie-lite-seaway/build/CMakeFiles/edit_cache.dir
+/media/yushe/code/nnie-lite-seaway/build/CMakeFiles/main.dir

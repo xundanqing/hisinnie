@@ -1,0 +1,3 @@
+/data1/xundanqing/nnie-lite-seaway/CMakeFiles/rebuild_cache.dir
+/data1/xundanqing/nnie-lite-seaway/CMakeFiles/edit_cache.dir
+/data1/xundanqing/nnie-lite-seaway/CMakeFiles/main.dir

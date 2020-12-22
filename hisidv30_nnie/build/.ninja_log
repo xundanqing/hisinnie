@@ -1,0 +1,12 @@
+# ninja log v5
+2	330	1596103507866538200	CMakeFiles/main.dir/src/dictionary.c.o	d2f0bc59d4d74c41
+2	355	1596103507887991400	CMakeFiles/main.dir/src/iniparser.c.o	dabc078118d44fa7
+2	362	1596103507899339900	CMakeFiles/main.dir/src/sample_comm_nnie.c.o	5d180f93120f4b46
+2	392	1596103507929691100	CMakeFiles/main.dir/src/sample_comm_svp.c.o	a4a5201bf957efd6
+2	520	1596103508058073300	CMakeFiles/main.dir/src/nnie_core.c.o	7fa0d9fa6d12d731
+1	2451	1596103509987440000	CMakeFiles/main.dir/src/NNIEVideoCapture.cpp.o	cb825b7d52d18842
+1	2575	1596103510111983400	CMakeFiles/main.dir/src/Net.cpp.o	42789be73ea7081c
+1	2636	1596103510166983500	CMakeFiles/main.dir/src/faceRecognition.cpp.o	4698686c847078ce
+1	2652	1596103510188564800	CMakeFiles/main.dir/src/faceAlign.cpp.o	2950939d9c737cef
+3	2671	1596103510208246800	CMakeFiles/main.dir/main.cpp.o	e64e0ee8130e58a2
+1	3034	1596103510570114200	CMakeFiles/main.dir/src/faceDetect.cpp.o	a9446bc2fc9185a0

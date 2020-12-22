@@ -1,0 +1,238 @@
+---- read Matches (237 in 55 files) ----
+Calib3d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    patterns) or read them from the input parameters. The distortion coefficients are all set to
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    void read(const FileNode& fn);
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP virtual void read(const FileNode& fn) { (void)fn; }
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    /** @brief Returns true if the Algorithm is empty (e.g. in the very beginning or after unsuccessful read
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):     Ptr<SVM> svm = Algorithm::read<SVM>(fsRead.root());
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):     In order to make this method work, the derived class must overwrite Algorithm::read(const
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    template<typename _Tp> static Ptr<_Tp> read(const FileNode& fn)
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):        obj->read(fn);
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):     @param filename Name of the file to read.
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):     @param objname The optional name of the node to read (if empty, the first top-level node will be used)
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):     In order to make this method work, the derived class must overwrite Algorithm::read(const
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):        obj->read(fn);
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):     @param objname The optional name of the node to read (if empty, the first top-level node will be used)
+Core.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):        obj->read(fn);
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):   The sequence can be read in forward or backward direction */
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):created or an existing file is rewritten. The type of the read or written file is determined by the
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):storage is read.
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    Mainly it is used with user objects. When the storage is read, the
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):The function writes a comment into file storage. The comments are skipped when the storage is read.
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):that supports the read method (see CvTypeInfo). The type of the object is determined by the type
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):The function initializes the sequence reader to read data from a file node. The initialized reader
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):@param src The file node (a sequence) to read numbers from
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):user-specified array. The total number of read sequence elements is a product of total and the
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):number of components in each array element. For example, if dt=2if, the function will read total\*3
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):sequence elements. As with any sequence, some parts of the file node sequence can be skipped or read
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):@param count The number of elements to read
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):@param src The file node (a sequence) to read numbers from
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):            CvReadFunc read=0, CvWriteFunc write=0, CvCloneFunc clone=0 );
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-write reference to the specified element
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the specified element
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the first sequence element
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the last sequence element
+Core_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the current sequence element
+Cvstd.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):@note It is safe to concurrently read (but not write) a Ptr instance from multiple threads and
+Cvstd.inl.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(*this, value, value);
+Cvstd.inl.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(n, value, std::string());
+Dnn.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\dnn):        //! List of learned parameters must be stored here to allow read them by using Net::getParam().
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):// CV_EXPORTS void read(const FileNode& node, CV_OUT std::vector<KeyPoint>& keypoints);
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP void read( const String& fileName );
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP virtual void read( const FileNode&);
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):      void read( const FileNode& fn );
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP void read( const String& fileName )
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):        read(fs.root());
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP virtual void read( const FileNode& );
+Features2d.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    virtual void read( const FileNode& );
+Highgui.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):for 25 ms, after which display will be automatically closed. (If you put it in a loop to read
+Hi_comm_dpu_match.h (third_party\hisi\include):    ERR_DPU_MATCH_READ_FILE = 0x42, /* DPU MATCH read file error */
+Hi_comm_dpu_match.h (third_party\hisi_bak\include):    ERR_DPU_MATCH_READ_FILE = 0x42, /* DPU MATCH read file error */
+Hi_comm_dpu_rect.h (third_party\hisi\include):    ERR_DPU_RECT_READ_FILE = 0x42, /* DPU RECT read file error */
+Hi_comm_dpu_rect.h (third_party\hisi_bak\include):    ERR_DPU_RECT_READ_FILE = 0x42, /* DPU RECT read file error */
+Hi_comm_hdmi.h (third_party\hisi\include):    HI_HDMI_EVENT_EDID_FAIL,                /**<HDMI EDID read failure event */
+Hi_comm_hdmi.h (third_party\hisi\include):    HI_BOOL             bIsRealEDID;                                                      /**< Whether the EDID obtains the flag from the sink device.HI_TRUE: The EDID information is correctly read.HI_FASE: default settings */
+Hi_comm_hdmi.h (third_party\hisi_bak\include):    HI_HDMI_EVENT_EDID_FAIL,                /* HDMI EDID read failure event */
+Hi_comm_hdmi.h (third_party\hisi_bak\include):    HI_BOOL             bIsRealEDID;                                                      /* Whether the EDID obtains the flag from the sink device.HI_TRUE: The EDID information is correctly read.HI_FASE: default settings */
+Hi_comm_isp.h (third_party\hisi\include):Defines the structure of dng image static infomation. read only
+Hi_comm_isp.h (third_party\hisi_bak\include):Defines the structure of dng image static infomation. read only
+Hi_comm_isp_adapt.h (third_party\hisi\include\adapt):Defines the structure of dng image static infomation. read only
+Hi_comm_isp_adapt.h (third_party\hisi_bak\include\adapt):Defines the structure of dng image static infomation. read only
+Hi_comm_ive.h (third_party\hisi\include):    ERR_IVE_READ_FILE      = 0x43,   /* IVE read file error */
+Hi_comm_ive.h (third_party\hisi\include):	ERR_FD_READ_FILE     = 0x44,   /* FD read file error */
+Hi_comm_ive.h (third_party\hisi\include):/*IVE read file error: 0xA01D8043*/
+Hi_comm_ive.h (third_party\hisi\include):/*IVE read file error: 0xA01D8044*/
+Hi_comm_ive.h (third_party\hisi\include):/*FD read file error: 0xA02F8044*/
+Hi_comm_ive.h (third_party\hisi\include):/*FD read file error: 0xA02F8045*/
+Hi_comm_ive.h (third_party\hisi_bak\include):    ERR_IVE_READ_FILE = 0x43,     /* IVE read file error */
+Hi_comm_ive.h (third_party\hisi_bak\include):    ERR_FD_READ_FILE = 0x44,     /* FD read file error */
+Hi_comm_ive.h (third_party\hisi_bak\include):/* IVE read file error: 0xA01D8043 */
+Hi_comm_ive.h (third_party\hisi_bak\include):/* IVE read file error: 0xA01D8044 */
+Hi_comm_ive.h (third_party\hisi_bak\include):/* FD read file error: 0xA02F8044 */
+Hi_comm_ive.h (third_party\hisi_bak\include):/* FD read file error: 0xA02F8045 */
+Hi_comm_pciv.h (third_party\hisi\include):    HI_BOOL             bRead;    /*  dam task is  read or write data  */
+Hi_comm_pciv.h (third_party\hisi_bak\include):    HI_BOOL             bRead;    /*  dam task is  read or write data  */
+Hi_comm_video.h (third_party\hisi\include):    COMPRESS_MODE_FRAME,      /* compress unit is the whole frame. YUV for VI(3DNR), RGB for TDE(write)/VO(read) */
+Hi_comm_video.h (third_party\hisi_bak\include):    COMPRESS_MODE_FRAME,      /* compress unit is the whole frame. YUV for VI(3DNR), RGB for TDE(write)/VO(read) */
+Hi_dsp.h (third_party\hisi\include):    ERR_SVP_DSP_READ_FILE = 0x43,     /* SVP_DSP read file error */
+Hi_dsp.h (third_party\hisi\include):/* SVP_DSP read file error */
+Hi_dsp.h (third_party\hisi_bak\include):    ERR_SVP_DSP_READ_FILE = 0x43,     /* SVP_DSP read file error */
+Hi_dsp.h (third_party\hisi_bak\include):/* SVP_DSP read file error */
+Hi_mipi.h (third_party\hisi_bak\include):    SLVS_DATA_FIFO_R_ERR    = 0x1 << 4,         /* data fifo read err */
+Hi_mipi_tx.h (third_party\hisi_bak\include):    unsigned short      get_data_size;  /* read data size */
+Hi_mipi_tx.h (third_party\hisi_bak\include):    unsigned char       *get_data;      /* read data memery address, should  malloc by user */
+Hi_nnie.h (third_party\hisi\include):    ERR_SVP_NNIE_READ_FILE      = 0x44,   /* SVP NNIE read file error */
+Hi_nnie.h (third_party\hisi_bak\include):    ERR_SVP_NNIE_READ_FILE = 0x44, /* SVP NNIE read file error */
+Hi_osal.h (third_party\hisi\include):    int (*read)(struct osal_proc_dir_entry *entry);
+Hi_osal.h (third_party\hisi\include):    int (*read)(char *buf, int size, long *offset, void *private_data);
+Hi_osal.h (third_party\hisi_bak\include):    int (*read)(struct osal_proc_dir_entry *entry);
+Hi_osal.h (third_party\hisi_bak\include):    int (*read)(char *buf, int size, long *offset, void *private_data);
+Hi_securec.h (third_party\hisi\include):    * @param buffer -  read character from  buffer
+Hi_securec.h (third_party\hisi\include):    * @param buffer -  read character from  buffer
+Hi_securec.h (third_party\hisi_bak\include):    * @param buffer -  read character from  buffer
+Hi_securec.h (third_party\hisi_bak\include):    * @param buffer -  read character from  buffer
+Hi_spi.h (third_party\hisi\include): * in a 16-bit word), the next could read a block of 8-bit data before
+Hi_spi.h (third_party\hisi_bak\include): * in a 16-bit word), the next could read a block of 8-bit data before
+Imgcodecs.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):       IMREAD_ANYCOLOR             = 4,  //!< If set, the image is read in any possible color format.
+Imgcodecs.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):read (because of missing file, improper permissions, unsupported or invalid format), the function
+Imgcodecs.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    libpng, libtiff, and libjasper) are used by default. So, OpenCV can always read JPEGs, PNGs,
+Imgproc_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\imgproc):   If the Freeman codes should be read as is, a simple sequence reader should be used
+Iniparser.c (src):  This function queries a dictionary for a key. A key as read from an
+Iniparser.c (src):  This function queries a dictionary for a key. A key as read from an
+Iniparser.c (src):  This function queries a dictionary for a key. A key as read from an
+Iniparser.c (src):  This function queries a dictionary for a key. A key as read from an
+Iniparser.c (src):  This function queries a dictionary for a key. A key as read from an
+Iniparser.c (src):  @param    ininame Name of the ini file to read.
+Iniparser.c (src):  the name of the file to be read. It returns a dictionary object that
+Iniparser.h (inc):  This function queries a dictionary for a key. A key as read from an
+Iniparser.h (inc):  This function queries a dictionary for a key. A key as read from an
+Iniparser.h (inc):  This function queries a dictionary for a key. A key as read from an
+Iniparser.h (inc):  This function queries a dictionary for a key. A key as read from an
+Iniparser.h (inc):  This function queries a dictionary for a key. A key as read from an
+Iniparser.h (inc):  @param    ininame Name of the ini file to read.
+Iniparser.h (inc):  the name of the file to be read. It returns a dictionary object that
+Main.cpp:            video_capture->read(SENSOR_0,BASE_STREAM,&stframe);
+Main.cpp:// 		if(videocap->read(SENSOR_0, frame))
+Main.cpp:// 		if(videocap->read(SENSOR_1, frame))
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):/** @brief This is the proxy class for passing read-only input arrays into OpenCV functions.
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    These are available assignment operators. Since they all are very different, make sure to read the
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    The methods return the matrix read-only or read-write iterators. The use of matrix iterators is very
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    The methods return the matrix read-only or read-write iterators, set to the point following the last
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the specified element
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the specified element
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the specified element (1D case)
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the specified element (2D case)
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only reference to the specified element (3D case)
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):     return read-write reference to the specified sparse matrix element.
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns the read-only sparse matrix iterator at the matrix beginning
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns the read-only sparse matrix iterator at the matrix beginning
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns the read-only sparse matrix iterator at the matrix end
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns the typed read-only sparse matrix iterator at the matrix end
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only sparse matrix iterator pointing to the first sparse matrix element
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only sparse matrix iterator pointing to the element following the last sparse matrix element
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):/** @brief Matrix read-only iterator
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):/** @brief Matrix read-write iterator
+Mat.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-write reference to the current sparse matrix element
+NNIEVideoCapture.cpp (src):bool NNIEVideoCapture::read(SENSOR_NUM_E num,cv::Mat& frame)
+NNIEVideoCapture.cpp (src):bool NNIEVideoCapture::read(SENSOR_NUM_E num,STREAM_NUM_E CHAN_EN,VIDEO_FRAME_INFO_S *pstFrame)
+NNIEVideoCaputre.h (inc):	bool read(SENSOR_NUM_E num,cv::Mat& frame);
+NNIEVideoCaputre.h (inc):    bool read(SENSOR_NUM_E num,STREAM_NUM_E CHAN_EN,VIDEO_FRAME_INFO_S *pstFrame);
+Objdetect.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP bool read( const FileNode& node );
+Objdetect.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    virtual bool read(FileNode& fn);
+Objdetect.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    @param filename Name of the file to read.
+Objdetect.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    @param objname The optional name of the node to read (if empty, the first top-level node will be used).
+Objdetect.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    /** @brief read/parse Dalal's alt model file
+Ocl.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    CV_DEPRECATED bool read(const String& buf, const String& buildflags); // removed, use ProgramSource instead
+Opengl.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    then be directly read and/or written relative to the returned pointer, depending on the specified
+Opengl.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    @param access Access policy, indicating whether it will be possible to read from, write to, or both
+Opengl.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read from and write to the buffer object's mapped data store. The symbolic constant must be
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):OpenCV can read and write data in XML (<http://www.w3c.org/XML>), YAML (<http://www.yaml.org>) or
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):The same functions can read and write data in both formats; the particular format is determined by
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):To read the previously written XML, YAML or JSON file, do the following:
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):Here is how to read the file created by the code sample above:
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):        // you can also easily read numerical arrays using FileNode >> std::vector operator.
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):        MEMORY      = 4, //!< flag, read data from source or write data to the internal buffer (which is
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    @param filename Name of the file to open or the text string to read the data from.
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    The function writes a comment into file storage. The comments are skipped when the storage is read.
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):XML/YAML file is read, it is first parsed and stored in the memory as a hierarchical collection of
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    @param len Number of elements to read. If it is greater than number of remaining elements then all
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    of them will be read.
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    @param maxCount Number of elements to read. If it is greater than number of remaining elements then
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    all of them will be read.
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):      void*        seq;        /* sequence, beign read; CvSeq      */
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):      schar*       ptr;        /* pointer to element be read next */
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, int& value, int default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, float& value, float default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, double& value, double default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, String& value, const String& default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, std::string& value, const std::string& default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, Mat& mat, const Mat& default_mat = Mat() );
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, SparseMat& mat, const SparseMat& default_mat = SparseMat() );
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, std::vector<KeyPoint>& keypoints);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, std::vector<DMatch>& matches);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, KeyPoint& value, const KeyPoint& default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):CV_EXPORTS void read(const FileNode& node, DMatch& value, const DMatch& default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp> static inline void read(const FileNode& node, Point_<_Tp>& value, const Point_<_Tp>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp> static inline void read(const FileNode& node, Point3_<_Tp>& value, const Point3_<_Tp>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp> static inline void read(const FileNode& node, Size_<_Tp>& value, const Size_<_Tp>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp> static inline void read(const FileNode& node, Complex<_Tp>& value, const Complex<_Tp>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp> static inline void read(const FileNode& node, Rect_<_Tp>& value, const Rect_<_Tp>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp, int cn> static inline void read(const FileNode& node, Vec<_Tp, cn>& value, const Vec<_Tp, cn>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):template<typename _Tp> static inline void read(const FileNode& node, Scalar_<_Tp>& value, const Scalar_<_Tp>& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):static inline void read(const FileNode& node, Range& value, const Range& default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(node, temp, default_temp);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):                read(**it, vec[i], _Tp());
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read(const FileNode& node, bool& value, bool default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(node, temp, (int)default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read(const FileNode& node, uchar& value, uchar default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(node, temp, (int)default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read(const FileNode& node, schar& value, schar default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(node, temp, (int)default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read(const FileNode& node, ushort& value, ushort default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(node, temp, (int)default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read(const FileNode& node, short& value, short default_value)
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(node, temp, (int)default_value);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read( FileNodeIterator& it, std::vector<_Tp>& vec, size_t maxCount = (size_t)INT_MAX )
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read( const FileNode& node, std::vector<_Tp>& vec, const std::vector<_Tp>& default_value = std::vector<_Tp>() )
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):        read( it, vec );
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read( const FileNode& node, std::vector<KeyPoint>& vec, const std::vector<KeyPoint>& default_value )
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):        read(node, vec);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):void read( const FileNode& node, std::vector<DMatch>& vec, const std::vector<DMatch>& default_value )
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):        read(node, vec);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read( *it, value, _Tp());
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read( n, value, _Tp());
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(n, vec);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    read(n, vec);
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):inline FileNode::operator int() const    { int value;    read(*this, value, 0);     return value; }
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):inline FileNode::operator float() const  { float value;  read(*this, value, 0.f);   return value; }
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):inline FileNode::operator double() const { double value; read(*this, value, 0.);    return value; }
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):inline FileNode::operator String() const { String value; read(*this, value, value); return value; }
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):inline Mat FileNode::mat() const { Mat value; read(*this, value, value);    return value; }
+Persistence.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):inline String::String(const FileNode& fn): cstr_(0), len_(0) { read(fn, *this, *this); }
+Sample_comm_nnie.c (src):		"Error,read model file failed!\n");
+Saving.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\flann):        throw FLANNException("Invalid index file, cannot read");
+Saving.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\flann):        throw FLANNException("Cannot read from file");
+Saving.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\flann):        throw FLANNException("Cannot read from file");
+Saving.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\flann):        throw FLANNException("Cannot read from file");
+Saving.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\flann):        throw FLANNException("Cannot read from file");
+Saving.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\flann):        throw FLANNException("Cannot read from file");
+Securec.h (third_party\hisi\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi_bak\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi_bak\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi_bak\include):    * @param buffer -  read character from  buffer
+Securec.h (third_party\hisi_bak\include):    * @param buffer -  read character from  buffer
+Types_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    CvSeq*       seq;        /**< sequence, beign read */             \
+Types_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    schar*       ptr;        /**< pointer to element be read next */  \
+Types_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):/** Read element and move read position forward: */
+Types_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):/** Read element and move read position backward: */
+Types_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):is read from file storage. The user can register a new type with cvRegisterType that adds the type
+Types_c.h (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    CvReadFunc read; /**< reads object from file storage */
+Utility.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2\core):    //! returns read-only pointer to the real buffer, stack-allocated or heap-allocated
+Videoio.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    - or image sequence (eg. `img_%02d.jpg`, which will read samples like `img_00.jpg, img_01.jpg, img_02.jpg, ...`)
+Videoio.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    @sa read()
+Videoio.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    /** @brief Stream operator to read the next video frame.
+Videoio.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    @sa read()
+Videoio.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    @sa read()
+Videoio.hpp (third_party\opencv-3.4.1\install_hisi\include\opencv2):    CV_WRAP virtual bool read(OutputArray image);

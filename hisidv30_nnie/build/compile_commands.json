@@ -1,0 +1,151 @@
+[
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/detector.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/detector.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/detector.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/faceAlign.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/faceAlign.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/faceAlign.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/faceDetect.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/faceDetect.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/faceDetect.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/faceRecognition.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/faceRecognition.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/faceRecognition.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/lane.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/lane.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/lane.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/Net.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/Net.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/Net.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/NNIEVideoCapture.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/NNIEVideoCapture.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/NNIEVideoCapture.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/svp_convert.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/svp_convert.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/svp_convert.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/utils.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/utils.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/utils.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/video_source.cpp.o -c /media/yushe/code/nnie-lite-seaway/src/video_source.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/video_source.cpp"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/dictionary.c.o   -c /media/yushe/code/nnie-lite-seaway/src/dictionary.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/dictionary.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/iniparser.c.o   -c /media/yushe/code/nnie-lite-seaway/src/iniparser.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/iniparser.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/mpp_video.c.o   -c /media/yushe/code/nnie-lite-seaway/src/mpp_video.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/mpp_video.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/nnie_core.c.o   -c /media/yushe/code/nnie-lite-seaway/src/nnie_core.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/nnie_core.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_isp.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_isp.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_isp.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_ive.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_ive.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_ive.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_nnie.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_nnie.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_nnie.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_svp.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_svp.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_svp.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_sys.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_sys.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_sys.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_vdec.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_vdec.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_vdec.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_venc.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_venc.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_venc.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_vi.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_vi.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_vi.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_vo.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_vo.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_vo.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-gcc   -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -I/usr/local/cuda/include   -g   -o CMakeFiles/main.dir/src/sample_comm_vpss.c.o   -c /media/yushe/code/nnie-lite-seaway/src/sample_comm_vpss.c",
+  "file": "/media/yushe/code/nnie-lite-seaway/src/sample_comm_vpss.c"
+},
+
+{
+  "directory": "/media/yushe/code/nnie-lite-seaway/build",
+  "command": "arm-himix200-linux-g++    -I../inc -I.././third_party/opencv-3.4.1/install_hisi/include -I.././third_party/hisi/include  -g   -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /media/yushe/code/nnie-lite-seaway/main.cpp",
+  "file": "/media/yushe/code/nnie-lite-seaway/main.cpp"
+}
+]
